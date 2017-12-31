@@ -1,20 +1,21 @@
 import * as React from 'react'
 import './App.css'
-
-const logo = require('./logo.svg')
+import MainNav from './MainNav'
+import AppHeader from './AppHeader'
 
 class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <div className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h2>Welcome to React</h2>
+                <AppHeader />
+
+                <div className="MainNav">
+                    <MainNav />
                 </div>
-                <p className="App-intro">
-                    To get started, edit <code>src/App.tsx</code> and save to
-                    reload.
-                </p>
+
+                <div className="MainContent">
+                    <span>Content here</span>
+                </div>
             </div>
         )
     }
