@@ -1,3 +1,15 @@
+## Environment Setup
+
+- Visual Studio Code
+    - [Install workspace recommended extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions)
+    
+- WebStorm
+    - [Configure Prettier file watchers](https://prettier.io/docs/en/webstorm.html#using-file-watcher)
+    - [Configure TSLint](https://www.jetbrains.com/help/webstorm/tslint.html)
+    - [Tweak inspections](https://www.jetbrains.com/help/webstorm/disabling-and-enabling-inspections.html)
+        - Disable `Unterminated statement` in JavaScript
+        - Disable all **except** `TSLint` in Typescript
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
