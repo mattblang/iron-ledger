@@ -5,10 +5,16 @@
     
 - WebStorm
     - [Configure Prettier file watchers](https://prettier.io/docs/en/webstorm.html#using-file-watcher)
+        - JavaScript
+        - TypeScript JSX
+        - Cascading Style Sheet
     - [Configure TSLint](https://www.jetbrains.com/help/webstorm/tslint.html)
     - [Tweak inspections](https://www.jetbrains.com/help/webstorm/disabling-and-enabling-inspections.html)
         - Disable `Unterminated statement` in JavaScript
-        - Disable all **except** `TSLint` in Typescript
+        - Enable **only** `TSLint` in Typescript
+    - [Tweak punctuation for generated code](https://www.jetbrains.com/help/webstorm/code-style-typescript.html#d179268e497)
+        - `Don't use` semicolon to terminate statements `in new code`
+        - Use `single` quotes `in new code`
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
